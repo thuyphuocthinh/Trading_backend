@@ -1,4 +1,4 @@
-package com.tpt.trading.service;
+package com.tpt.trading.service.impl;
 
 import com.tpt.trading.entity.User;
 import com.tpt.trading.repository.UserRepository;
@@ -10,7 +10,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service

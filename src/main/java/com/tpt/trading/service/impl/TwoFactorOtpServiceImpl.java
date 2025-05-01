@@ -1,8 +1,9 @@
-package com.tpt.trading.service;
+package com.tpt.trading.service.impl;
 
 import com.tpt.trading.entity.TwoFactorOTP;
 import com.tpt.trading.entity.User;
 import com.tpt.trading.repository.TwoFactorOtpRepository;
+import com.tpt.trading.service.TwoFactorOtpService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
