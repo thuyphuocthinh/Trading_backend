@@ -6,9 +6,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 public class JwtConstant {
     public static final String JWT_TOKEN_HEADER = "Authorization";
     public static final String SECRET_KEY = "thuyphuocthinh012498765thinhphuocthuy";
